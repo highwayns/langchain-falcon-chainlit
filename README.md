@@ -38,3 +38,7 @@ cd langchain-falcon-chainlit
 
 ## Disclaimer
 This is test project and is presented in my youtube video to learn new stuffs using the available open source projects and model. It is not meant to be used in production as it's not production ready. You can modify the code and use for your usecases ✌️
+
+## gpu memory problem
+execute the command in wsl ubuntu to resolve the GPU memory problem
+export 'PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:512'
